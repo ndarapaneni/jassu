@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="baseUrl" value="https://www.campusclarity.com"/>
+  <parameter name="driver" value="firefox"/>
+  <test name="Test">
+    <classes>
+      <class name="com.campusclaritycourse.tests.ThinkAboutItTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Failed suite [Suite] -->

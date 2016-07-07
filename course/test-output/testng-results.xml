@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1736192" started-at="2016-07-01T23:57:10Z" finished-at="2016-07-02T00:26:07Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1736192" started-at="2016-07-01T23:57:10Z" finished-at="2016-07-02T00:26:07Z">
+      <class name="com.campusclaritycourse.tests.ThinkAboutItTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.campusclaritycourse.tests.ThinkAboutItTest@27efef64]" name="setUp" is-config="true" duration-ms="7852" started-at="2016-07-01T16:57:10Z" finished-at="2016-07-01T16:57:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testBasePage()[pri:0, instance:com.campusclaritycourse.tests.ThinkAboutItTest@27efef64]" name="testBasePage" duration-ms="6866" started-at="2016-07-01T16:57:18Z" finished-at="2016-07-01T16:57:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBasePage -->
+        <test-method status="PASS" signature="testLoginPage()[pri:0, instance:com.campusclaritycourse.tests.ThinkAboutItTest@27efef64]" name="testLoginPage" duration-ms="2381" started-at="2016-07-01T16:57:25Z" depends-on-methods="com.campusclaritycourse.tests.ThinkAboutItTest.testBasePage" finished-at="2016-07-01T16:57:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginPage -->
+        <test-method status="PASS" signature="testHomePage()[pri:0, instance:com.campusclaritycourse.tests.ThinkAboutItTest@27efef64]" name="testHomePage" duration-ms="5424" started-at="2016-07-01T16:57:27Z" depends-on-methods="com.campusclaritycourse.tests.ThinkAboutItTest.testLoginPage" finished-at="2016-07-01T16:57:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomePage -->
+        <test-method status="PASS" signature="testPrologueSection()[pri:0, instance:com.campusclaritycourse.tests.ThinkAboutItTest@27efef64]" name="testPrologueSection" duration-ms="15003" started-at="2016-07-01T16:57:33Z" depends-on-methods="com.campusclaritycourse.tests.ThinkAboutItTest.testHomePage" finished-at="2016-07-01T16:57:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPrologueSection -->
+        <test-method status="PASS" signature="testSexInCollegeSection()[pri:0, instance:com.campusclaritycourse.tests.ThinkAboutItTest@27efef64]" name="testSexInCollegeSection" duration-ms="2003" started-at="2016-07-01T16:57:48Z" depends-on-methods="com.campusclaritycourse.tests.ThinkAboutItTest.testPrologueSection" finished-at="2016-07-01T16:57:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSexInCollegeSection -->
+        <test-method status="PASS" signature="testHealthyRelationShipsSection()[pri:0, instance:com.campusclaritycourse.tests.ThinkAboutItTest@27efef64]" name="testHealthyRelationShipsSection" duration-ms="4" started-at="2016-07-01T16:57:50Z" depends-on-methods="com.campusclaritycourse.tests.ThinkAboutItTest.testSexInCollegeSection" finished-at="2016-07-01T16:57:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHealthyRelationShipsSection -->
+        <test-method status="PASS" signature="testPartyingSmartSection()[pri:0, instance:com.campusclaritycourse.tests.ThinkAboutItTest@27efef64]" name="testPartyingSmartSection" duration-ms="181768" started-at="2016-07-01T16:57:50Z" depends-on-methods="com.campusclaritycourse.tests.ThinkAboutItTest.testHealthyRelationShipsSection" finished-at="2016-07-01T17:00:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPartyingSmartSection -->
+        <test-method status="PASS" signature="testSexualViolenceSection()[pri:0, instance:com.campusclaritycourse.tests.ThinkAboutItTest@27efef64]" name="testSexualViolenceSection" duration-ms="1479388" started-at="2016-07-01T17:00:52Z" depends-on-methods="com.campusclaritycourse.tests.ThinkAboutItTest.testPartyingSmartSection" finished-at="2016-07-01T17:25:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSexualViolenceSection -->
+        <test-method status="PASS" signature="testEpilogueSection()[pri:0, instance:com.campusclaritycourse.tests.ThinkAboutItTest@27efef64]" name="testEpilogueSection" duration-ms="34662" started-at="2016-07-01T17:25:31Z" depends-on-methods="com.campusclaritycourse.tests.ThinkAboutItTest.testSexualViolenceSection" finished-at="2016-07-01T17:26:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEpilogueSection -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.campusclaritycourse.tests.ThinkAboutItTest@27efef64]" name="tearDown" is-config="true" duration-ms="808" started-at="2016-07-01T17:26:06Z" finished-at="2016-07-01T17:26:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.campusclaritycourse.tests.ThinkAboutItTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
